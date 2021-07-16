@@ -1,0 +1,40 @@
+.list {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 10px 40px 10px 40px;
+}
+
+.card {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.card > li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.groove {
+    height: 10px;
+    background: silver;
+    width: 200px;
+    margin: 0 auto 10px auto;
+    border-radius: 8px;
+}
+
+.line {
+    height: 10px;
+    background: limegreen;
+    border-radius: 8px;
+    margin: 0;
+}
+
+.return {
+    margin-top: 10px;
+}
