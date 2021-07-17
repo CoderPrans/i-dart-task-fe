@@ -58,11 +58,11 @@ const Home = () => {
           data: [
             {
               name: "MFs",
-              y: MF,
+              y: parseFloat(MF.toFixed(3)),
             },
             {
               name: "ETFs",
-              y: ETF,
+              y: parseFloat(ETF.toFixed(3)),
             },
           ],
         },
