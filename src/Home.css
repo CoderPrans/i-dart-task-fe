@@ -1,8 +1,17 @@
+body {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
 .list {
     display: flex;
     justify-content: space-between;
     width: 1000px;
-    margin: 10px 40px 10px 40px;
+    margin: 10px 40px 5px 40px;
+}
+
+li {
+    margin: 3px;
 }
 
 .card {
@@ -13,16 +22,17 @@
     border: 1px solid #ddd;
     border-radius: 5px;
     width: 500px;
+    background-color: #F2F2F2;
 }
 
-.card > li {
+.card li {
     display: flex;
     justify-content: space-between;
 }
 
 .groove {
     height: 10px;
-    background: silver;
+    background: #CCCCCC;
     width: 200px;
     margin: 0 auto 10px auto;
     border-radius: 8px;
